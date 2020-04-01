@@ -1,0 +1,23 @@
+# import speech_recognition as sr
+#
+# r = sr.Recognizer()
+#
+# with sr.Microphone() as source:
+#     print("speak: ")
+#     audio = r.listen(source)
+#     try:
+#         output = r.recognize_google(audio)
+#         print("you said:{}".format(output))
+#     except:
+#         print("NOt understood")
+
+# import time
+# from gtts import gTTS
+# from tempfile import TemporaryFile
+# from IPython.display import Audio
+# from io import BytesIO
+# l = '''SQLite Trigger is an event-driven action or database callback function which is invoked automatically when an INSERT, UPDATE, and DELETE statement is performed on a specified table.
+# '''
+# mp3_fp = BytesIO()
+# tts = gTTS(text=l,lang='en')
+# tts.save("hello.mp3")
